@@ -18,7 +18,7 @@ int main()
 	int town;
 	std::cin >> town;
 
-	int tour[N + 1] = { town }; // тур починається в рідному місті
+	int tour[N + 1] = { town }; // тур розпочинається в рідному місті
 	int current = town - 1;              // поточне місто
 	std::set<int> visited = { current }; // множина відвіданих міст
 	word cost = 0;                       // вартість туру
